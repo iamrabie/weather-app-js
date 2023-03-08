@@ -1,0 +1,139 @@
+body
+{
+    margin:0px;
+    padding:0px;
+    background-image: url("download.png");
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+}
+
+.boxA
+{
+    height:60%;
+    font-weight: lighter;
+
+}   
+
+.boxB
+{
+    height:37%;
+}
+
+#Astyle
+{
+    text-align:center;
+    padding-top: 4%;
+    padding-bottom:2%;
+    position:relative;
+    top:30%;
+}
+
+.font1
+{
+    font-size:24px;
+}
+
+.font2
+{
+    font-size:120px;
+    line-height:75px;
+}
+
+.lineHeight
+{
+    line-height:90px;
+}
+
+.flex
+{
+    display:flex;
+    padding-bottom:7px;
+    text-align: center;
+}
+
+.width
+{
+    width:33.33%;
+}
+
+#boxBTop
+{
+  position:relative;
+  top:21%;
+}
+
+.flexx
+{
+    display:flex;
+    justify-content: center;
+}
+
+@media screen and (min-width:500px) and (max-width:750px)
+{
+
+.font1
+{
+    font-size:18px;
+}
+
+.font2
+{
+    font-size:100px;
+    line-height:55px;
+}
+
+.lineHeight
+{
+    line-height:70px;
+}
+
+#Astyle
+{
+    text-align:center;
+    padding-top: 4%;
+    padding-bottom:2%;
+    position:relative;
+    top:40%;
+}
+
+body
+{
+    font-size: 13px;
+}
+
+}
+
+@media screen and (min-width:751px) and (max-width:1000px)
+{
+
+.font1
+{
+    font-size:24px;
+}
+
+.font2
+{
+    font-size:110px;
+    line-height:40px;
+}
+
+.lineHeight
+{
+    line-height:85px;
+}
+
+#Astyle
+{
+    text-align:center;
+    padding-top: 4%;
+    padding-bottom:2%;
+    position:relative;
+    top:40%;
+}
+
+body
+{
+    font-size: 16px;
+}
+
+}
